@@ -57,6 +57,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 1px 6px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229, 0px 2px 1px 0px #2e2f4214;
 }
 .header-navigation {
   display: flex;
@@ -122,7 +123,7 @@ body {
   padding-bottom: 188px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
-  background-position: absolute;
+  background-position: center;
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
@@ -152,6 +153,7 @@ body {
   margin: 0 auto;
   border-radius: 4px;
   border: 0px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -329,7 +331,7 @@ body {
 }
 .customers-link:focus,
 .customers-link:hover {
-  border: 1px solid #404bbf;
+  border-color: #404bbf;
 }
 .customers-link:hover > .customer-icon {
   fill: #404bbf;
@@ -422,7 +424,6 @@ body {
 }
 .filter-item-card {
   width: calc((100% - 48px) / 3);
-  width: 360px;
 }
 
 .filter-button {
@@ -438,8 +439,6 @@ body {
   cursor: pointer;
   background-color: var(--filter-background);
   padding: 12px 24px;
-  min-width: 96px;
-  min-height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
@@ -448,8 +447,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   border-color: transparent;
-  box-shadow: 0px 2px 2px 0px #0000001F, 0px 2px 1px 0px #00000014, 0px 3px 1px 0px #0000001A;
-
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 2px 1px 0px #00000014, 0px 3px 1px 0px #0000001a;
 }
 .portfolio-item {
   font-weight: 500;
@@ -476,5 +474,5 @@ body {
 }
 .filter-card-link:hover,
 .filter-card-link:focus {
-  box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229; 0px 1px 6px 0px #2E2F4214;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229, 0px 1px 6px 0px #2e2f4214;
 }
